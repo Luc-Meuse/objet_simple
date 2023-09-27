@@ -1,0 +1,9 @@
+class Phone
+------------------
+String model
+String shape
+String color
+------------------
+void showInfo()
+void specifyShape(String)
+void specifyModel(String)
