@@ -2,11 +2,18 @@ public class Main {
     public static void main(String[] args){
     
         Phone p1=new Phone();
-        p1.iphone
+        p1.model = "iPhone14";
+        p1.color = "black";
 
-        System.out.println(p1.model + p1.color);
+        p1.showInfo();
 
-        String t
+        Phone p2=new Phone();
+        p2.model = "Nokia";
+        p2.color = "blue";
 
+        p2.showInfo();
+
+        Phone p3 = new Phone();
+        p3.showInfo();
     }
 }

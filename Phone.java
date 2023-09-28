@@ -4,9 +4,6 @@ public class Phone {
     String color;
 
     public void showInfo(){
-        String modelOne = "blue";
-        String colorOne = "black";
-        
-
+        System.out.println("Phone model " + model + ", color " + color);
     }
 }
