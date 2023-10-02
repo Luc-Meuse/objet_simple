@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args){
-    
+     e
         Phone p1=new Phone();
         p1.model = "iPhone14";
         p1.color = "black";
