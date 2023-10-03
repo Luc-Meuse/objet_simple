@@ -16,3 +16,7 @@ public Phone() {
         this.model = "samsung";
         this.color = "green;
 }
+
+public String toString() {
+ 
+}
