@@ -3,20 +3,37 @@ public class Phone {
     String model;
     String color;
 
-public void showInfo(){
-            System.out.println("Phone model " + model + ", color " + color);
-}
-
-public Phone(String model, String color) {
+    public Phone(String model, String color) {
         this.model = model;
         this.color = color;
-}
+    }
 
-public Phone() {
+    public Phone() {
         this.model = "samsung";
-        this.color = "green;
-}
+        this.color = "green";
+    }
 
-public String toString() {
- 
+    @Override
+    public boolean equals(Object other) {
+        // même objet en mémoire
+        if (this == other) {
+            return true;
+        }
+
+        // pas un Phone
+        if (!(other instanceof Phone)) {
+            return false;
+        }
+
+        Phone o = (Phone) other;
+        return this.model.equals(o.model) && this.color.equals(o.color); 
+    }
+
+    @Override
+    public String toString() {
+        return "Phone model " + model + ", color " + color;
+    }
+
+    
+
 }
