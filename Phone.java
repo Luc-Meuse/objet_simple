@@ -1,7 +1,7 @@
 public class Phone {
 
-    String model;
-    String color;
+    private String model;
+    private String color;
 
     public Phone(String model, String color) {
         this.model = model;
@@ -33,7 +33,4 @@ public class Phone {
     public String toString() {
         return "Phone model " + model + ", color " + color;
     }
-
-    
-
 }
