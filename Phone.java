@@ -11,6 +11,7 @@ public class Phone {
         color = c;
     }
 
+
     public String getModel(){
         return model;
     }

@@ -3,11 +3,11 @@ class Phone
 -String model
 -String color
 ------------------
-+setModel()
-+setColor()
-+getModel()
-+getColor()
-+Phone(String model, String color) 
++setModel(String) :void
++setColor(String) :void
++getModel() :String
++getColor() :String
++Phone(String, String)
 +Phone()
-+void equals()
-+void toString()
++void equals(Object) :boolean
++void toString() :String
