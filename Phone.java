@@ -3,10 +3,27 @@ public class Phone {
     private String model;
     private String color;
 
+    public void setModel(String m){
+        model = m;
+    }
+
+    public void setColor(String c){
+        color = c;
+    }
+
+    public String getModel(){
+        return model;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
     public Phone(String model, String color) {
         this.model = model;
         this.color = color;
     }
+
 
     public Phone() {
         this.model = "samsung";

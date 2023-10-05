@@ -1,6 +1,13 @@
 class Phone
 ------------------
-String model
-String color
+-String model
+-String color
 ------------------
-void showInfo()
++setModel()
++setColor()
++getModel()
++getColor()
++Phone(String model, String color) 
++Phone()
++void equals()
++void toString()
