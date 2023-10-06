@@ -3,20 +3,19 @@ public class Phone {
     private String model;
     private String color;
 
-    public void setModel(String m){
+    public void setModel(String m) {
         model = m;
     }
 
-    public void setColor(String c){
+    public void setColor(String c) {
         color = c;
     }
 
-
-    public String getModel(){
+    public String getModel() {
         return model;
     }
 
-    public String getColor(){
+    public String getColor() {
         return color;
     }
 
@@ -24,7 +23,6 @@ public class Phone {
         this.model = model;
         this.color = color;
     }
-
 
     public Phone() {
         this.model = "samsung";
@@ -44,7 +42,7 @@ public class Phone {
         }
 
         Phone o = (Phone) other;
-        return this.model.equals(o.model) && this.color.equals(o.color); 
+        return this.model.equals(o.model) && this.color.equals(o.color);
     }
 
     @Override
